@@ -3,45 +3,28 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Homoglöblin sorsoló</title>
+        <title>Homoglöblin portál</title>
+        <link rel="icon" href="./media/images/favicon1.png">
+        <link rel="stylesheet" href="./style1.css">
+        <script defer src="./main1.js"></script>
     </head>
 
     <body>
-        <table cellspacing="0" cellpadding="1" style="width:100%;">
-            <tr>
-                <th style= "background-color: rgb(183, 243, 71); width: 50px;" ><img src="icon.png" width="50" height="50"></th>
-                <th style="background-color: rgb(183, 243, 71); width: 100%; text-align: left; font-size: 220%;"><u><b>Homoglöblin sorsoló alkalmazás</b></u></th>
-            </tr>
-        </table>
-        <br>
-        <h1 style="font-size: 200%;"><b>Letöltés</b></h1>
-        <ul>
-            <li style="font-size:150%;"><a href="https://drive.google.com/file/d/12Br-VgrTExQ4qwTJ-ZXo7LD0YA61UxZE/view?usp=sharing">[Google drive]</a></li>
-            <li style="font-size:150%;"><a href="https://www.mediafire.com/file/1qe9pkzr3tnk7bk/Homogloblin_sorsolo.apk/file">[Mediafire]</a></li>
-        </ul>
-        <hr>
-        <h2>Telepítés</h2>
-        <p style="font-size:120%;">1. Kattints a fenti linkek egyikére és töltsd le az <b>apk</b> fájlt.<br>
-           2. Nyisd meg és telepítsd az alkalmazást. Ha kell engedélyezd a harmadik féltől származó/ismeretlen forrású program telepítését.<br>
-           (A Google Play ijesztő felugró üzeneteit hagyd figyelmen kívül.)
-        </p>
-        <hr>
-        <h2>Használat</h2>
-        <p style="font-size:120%;">• Az alkalmazásban két sorsolási módot találsz.</p>
-        <table border="1" cellspacing="0" cellpadding="5">
-            <tr>
-                <th>Általános</th>
-                <th>Speciális</th>
-            </tr>
-            <td>A sorsolásokon legtöbbször résztvevők közül választ glöblint.<br>
-                → Lölő, Geri, Csaba, Nimród, Boti, Örs</td>
-            <td>A felhasználó által megadott személyek közül választ glöblint.<br>
-                → 2-10 ember (<i>hamarosan 10+</i>) </td>
-        </table>
-        <p style="font-size:120%;">• Válaszd ki az egyik lehetőséget, add meg a szükséges adatokat (ha kell), majd kattints a "<b>Mutasd a mai glöblint!</b>" vagy "<b>Mutasd a glöblint!</b>" gombra.</p>
-        <hr>
-        <br>
-        <button style="background-color: black; width: 200px;"><a href="darktheme.html" style="color: white;">Sötét téma</a></button>
+        <div class="content">
+            <div class="title-box">
+                <h1 class="title">Homoglöblin portál</h1>
+            </div>
+            <button class="app-btn" onclick="redirectToHomogloblinSorsolo()">Homoglöblin sorsoló alkalmazás</button><br><br>
+            <button class="search-btn" onclick="redirectToHomogloogle()">Homogloogle keresőprogram</button>
+            <footer>
+                <hr>  
+                <p>
+                    <a style="color:white" href="https://homogloblin.click/">homogloblin.click</a>
+                    &copy;
+                    <script>document.write(new Date().getFullYear())</script>
+                </p>
+            </footer>
+        </div>
     </body>
 
 </html>

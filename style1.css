@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    background-color: rgb(18, 18, 18);
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+} 
+
+.content {
+    background-color: rgb(5, 5, 5);
+    width: 600px;
+    height: 100%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    color: white;
+    font-size: 40px;
+}
+.title-box {
+    background-color: rgb(18, 18, 18);
+    width: 400px;
+    height: auto;
+    border: 1px white solid;
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.app-btn {
+    text-align: center;
+    background-color: rgb(203, 30, 30);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    padding-left: 6px;
+    border: 1px rgb(5, 5, 5) solid;
+    border-radius: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.app-btn:hover {
+    background-color: rgb(201, 50, 50);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.app-btn:active {
+    border: 1px white solid;
+}
+.search-btn {
+    text-align: center;
+    background-color: rgb(25, 90, 122);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    padding-left: 6px;
+    border: 1px rgb(5, 5, 5) solid;
+    border-radius: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.search-btn:hover {
+    background-color: rgb(53, 95, 116);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.search-btn:active {
+    border: 1px white solid;
+}
+footer {
+    color: white;
+    align-items: center;
+    padding: 5px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+hr {
+    width: 600px;
+}
+
+@media only screen and (max-width: 700px) {
+    .content {
+        width: 300px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .title-box {
+        width: auto;
+    }
+    .title {
+        font-size: 30px;
+    }
+    hr {
+        width: 300px;
+    }
+    .app-btn {
+        font-size: 20px;
+    }
+    .app-btn:hover {
+        padding-left: 6px;
+        padding-left: 6px; 
+    }
+    .search-btn {
+        font-size: 20px;
+    }
+    .search-btn:hover {
+        padding-left: 6px;
+        padding-left: 6px; 
+    }
+}
