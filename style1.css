@@ -60,6 +60,28 @@ body {
 .app-btn:active {
     border: 1px white solid;
 }
+.online-btn {
+    text-align: center;
+    background-color: rgb(50, 143, 53);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    padding-left: 6px;
+    border: 1px rgb(5, 5, 5) solid;
+    border-radius: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.online-btn:hover {
+    background-color: rgb(67, 148, 69);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.online-btn:active {
+    border: 1px white solid;
+}
 .search-btn {
     text-align: center;
     background-color: rgb(25, 90, 122);
@@ -96,6 +118,7 @@ hr {
     width: 600px;
 }
 
+/*mobile and tablet mode */
 @media only screen and (max-width: 700px) {
     .content {
         width: 300px;
@@ -117,6 +140,13 @@ hr {
     .app-btn:hover {
         padding-left: 6px;
         padding-left: 6px; 
+    }
+    .online-btn {
+        font-size: 20px;
+    }
+    .online-btn:hover {
+        padding-left: 6px;
+        padding-left: 6px;
     }
     .search-btn {
         font-size: 20px;

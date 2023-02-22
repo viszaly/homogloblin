@@ -16,7 +16,7 @@ body {
 
 .title-box {
     background-color: rgb(5, 5, 5);
-    width: 700px;
+    width: 718px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -26,6 +26,7 @@ body {
     border-top-right-radius: 0px;
     align-items: center;
     padding-left: 12px;
+    padding-right: 10px;
 }
 .title {
     text-align: center;
@@ -37,14 +38,13 @@ body {
     transform: translateY(20%);
     display: inline-block;
     border-radius: 25px;
-
 }
 .content {
     margin-left: auto;
     margin-right: auto;
     width: 800px;
     color: white;
-    background-color: black;
+    background-color: rgb(5, 5, 5);
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
@@ -95,6 +95,7 @@ table {
     color: white;
 }
 
+/*mobile and tablet mode */
 @media only screen and (max-width: 700px) {
     .title-box {
         width: auto;
@@ -115,5 +116,4 @@ table {
     .download-btn {
         width: 200px;
     }
-
 }
